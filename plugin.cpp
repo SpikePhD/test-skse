@@ -7,7 +7,7 @@ namespace {
         using M = SKSE::MessagingInterface;
         if (m->type == M::kNewGame || m->type == M::kPostLoadGame) {
             RE::DebugNotification("test skse succesful!");
-            if (auto* con = RE::ConsoleLog::GetSingleton()) con->Print("test skse succesful!");
+            if (auto* con = RE::ConsoleLog::GetSingleton()) con->Print("test skse successful!");
         }
     }
 }
